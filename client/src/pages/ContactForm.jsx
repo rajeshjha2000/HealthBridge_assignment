@@ -24,7 +24,7 @@ function ContactForm() {
         setStatus("");
 
         try {
-            const response = await fetch("http://localhost:5000/api/contacts", {
+            const response = await fetch("https://web-production-a0e8d.up.railway.app/api/contacts", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
